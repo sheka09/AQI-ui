@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  gap: 10px 10px;
+  grid-template-columns: 3fr 7fr;
+  grid-template-areas:
+    "menu leaflet-container"
+  ;
+}
+
+.leaflet-container {
+  width: 70vw;
+  height: 100vh;
+}
+
+.menu {
+  grid-area: menu;
+  width: 30vw;
+  height: 40vh;
+  /* background: rgb(108, 101, 101); */
+}
+
+.dropdown{
+width: 150px;
+height:30px;
+}
+
+.legend {
+  width: 30vw;
+  height: 60vh;
+  background: blue;
+}
